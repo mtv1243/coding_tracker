@@ -1,0 +1,16 @@
+C:\Users\mtv12\Desktop\GA_JS_Class\Csharp_academy\coding_tracker\coding_tracker\bin\Debug\net5.0\coding_tracker.exe
+C:\Users\mtv12\Desktop\GA_JS_Class\Csharp_academy\coding_tracker\coding_tracker\bin\Debug\net5.0\coding_tracker.deps.json
+C:\Users\mtv12\Desktop\GA_JS_Class\Csharp_academy\coding_tracker\coding_tracker\bin\Debug\net5.0\coding_tracker.runtimeconfig.json
+C:\Users\mtv12\Desktop\GA_JS_Class\Csharp_academy\coding_tracker\coding_tracker\bin\Debug\net5.0\coding_tracker.runtimeconfig.dev.json
+C:\Users\mtv12\Desktop\GA_JS_Class\Csharp_academy\coding_tracker\coding_tracker\bin\Debug\net5.0\coding_tracker.dll
+C:\Users\mtv12\Desktop\GA_JS_Class\Csharp_academy\coding_tracker\coding_tracker\bin\Debug\net5.0\ref\coding_tracker.dll
+C:\Users\mtv12\Desktop\GA_JS_Class\Csharp_academy\coding_tracker\coding_tracker\bin\Debug\net5.0\coding_tracker.pdb
+C:\Users\mtv12\Desktop\GA_JS_Class\Csharp_academy\coding_tracker\coding_tracker\obj\Debug\net5.0\coding_tracker.csproj.AssemblyReference.cache
+C:\Users\mtv12\Desktop\GA_JS_Class\Csharp_academy\coding_tracker\coding_tracker\obj\Debug\net5.0\coding_tracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mtv12\Desktop\GA_JS_Class\Csharp_academy\coding_tracker\coding_tracker\obj\Debug\net5.0\coding_tracker.AssemblyInfoInputs.cache
+C:\Users\mtv12\Desktop\GA_JS_Class\Csharp_academy\coding_tracker\coding_tracker\obj\Debug\net5.0\coding_tracker.AssemblyInfo.cs
+C:\Users\mtv12\Desktop\GA_JS_Class\Csharp_academy\coding_tracker\coding_tracker\obj\Debug\net5.0\coding_tracker.csproj.CoreCompileInputs.cache
+C:\Users\mtv12\Desktop\GA_JS_Class\Csharp_academy\coding_tracker\coding_tracker\obj\Debug\net5.0\coding_tracker.dll
+C:\Users\mtv12\Desktop\GA_JS_Class\Csharp_academy\coding_tracker\coding_tracker\obj\Debug\net5.0\ref\coding_tracker.dll
+C:\Users\mtv12\Desktop\GA_JS_Class\Csharp_academy\coding_tracker\coding_tracker\obj\Debug\net5.0\coding_tracker.pdb
+C:\Users\mtv12\Desktop\GA_JS_Class\Csharp_academy\coding_tracker\coding_tracker\obj\Debug\net5.0\coding_tracker.genruntimeconfig.cache
