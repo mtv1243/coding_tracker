@@ -6,24 +6,28 @@ namespace coding_tracker
     class CodingSession
     {
         public int Id;
-        public string Duration;
-        public string Date;
+        public string StartDate;
+        public string EndDate;
         public string StartTime;
         public string EndTime;
+
+        public DateTime Start;
+        public DateTime End;
+        public TimeSpan Duration;
 
         public CodingSession()
         {
             Console.WriteLine("\n");
 
             // get date from user
-            Console.WriteLine("enter the date as 'YYYY/MM/DD'");
-            string date = Console.ReadLine();
+            Console.WriteLine("enter the start date as 'YYYY/MM/DD'");
+            StartDate = Console.ReadLine();
 
             // validate date input is in correct format
-            while (date.Length != 10)
+            while (StartDate.Length != 10)
             {
                 Console.WriteLine("Input is not in a valid format. Date must be 'YYYY/MM/DD'.");
-                date = Console.ReadLine();
+                StartDate = Console.ReadLine();
             }
 
             Console.WriteLine(".");
@@ -40,6 +44,25 @@ namespace coding_tracker
                 StartTime = Console.ReadLine();
             }
 
+            Console.WriteLine(".");
+            Console.WriteLine(".");
+            Console.WriteLine(".");
+            Console.WriteLine(".");
+
+            // get end date from user
+            Console.WriteLine("enter the end date as 'YYYY/MM/DD'");
+            EndDate = Console.ReadLine();
+
+            // validate end date input is in correct format
+            while (StartDate.Length != 10)
+            {
+                Console.WriteLine("Input is not in a valid format. Date must be 'YYYY/MM/DD'.");
+                EndDate = Console.ReadLine();
+            }
+
+            Console.WriteLine(".");
+            Console.WriteLine(".");
+
             // get end time input from user
             Console.WriteLine("enter the start time in 24hr format as 'HH:MM:SS'");
             EndTime = Console.ReadLine();
@@ -51,18 +74,29 @@ namespace coding_tracker
                 EndTime = Console.ReadLine();
             }
 
-            string[] dateArr = date.Split("/");
+            Console.WriteLine(".");
+            Console.WriteLine(".");
+            Console.WriteLine(".");
+            Console.WriteLine(".");
+
+            // create DateTime object
+            string[] startDateArr = StartDate.Split("/");
             string[] StartTimeArr = StartTime.Split(":");
+            
 
-            DateTime inputDate = new(int.Parse(dateArr[0]), int.Parse(dateArr[1]), int.Parse(dateArr[2]),
-                                     int.Parse(StartTimeArr[0]), int.Parse(StartTimeArr[1]), int.Parse(StartTimeArr[2]));
-            Console.WriteLine(".");
-            Console.WriteLine(".");
-            Console.WriteLine(inputDate.ToString());
-        }
+            Start = new DateTime(int.Parse(startDateArr[0]), int.Parse(startDateArr[1]), int.Parse(startDateArr[2]),
+                                 int.Parse(StartTimeArr[0]), int.Parse(StartTimeArr[1]), int.Parse(StartTimeArr[2])
+                                 );
 
-        private void DurationCalculator()
-        {
+            // create End Datetime oject
+            string[] endDateArr = EndDate.Split("/");
+            string[] endTimeArr = EndTime.Split(":");
+
+            End = new DateTime(int.Parse(endDateArr[0]), int.Parse(endDateArr[1]), int.Parse(endDateArr[2]),
+                               int.Parse(endTimeArr[0]), int.Parse(endTimeArr[1]), int.Parse(endTimeArr[2])
+                               );
+
+            Duration = End - Start; ;
 
         }
     }

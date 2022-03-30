@@ -8,35 +8,46 @@ namespace coding_tracker
     {
         static void Main(string[] args)
         {
-            
 
-            //bool exit = false;
+            Console.WriteLine("Welcome to the CodingTracker(TM)! Please choose an option fro mthe menu below");
+            Console.WriteLine();
 
-            //while (!exit)
-            //{
-            //    string input = Console.ReadLine();
+            while (true)
+            {
+                PrintMenu();
+                string input = Console.ReadLine();
 
-            //    if(input == "0")
-            //    {
-            //        Environment.Exit(-1);
-            //    }
+                
 
-            //    if (DateTime.TryParse(input, out DateTime date))
-            //    {
-            //        Console.WriteLine("correct format");
-            //        Console.WriteLine(date);
-            //        Console.WriteLine();
-            //        Console.WriteLine();
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine("incorrect format");
-            //        Console.WriteLine();
-            //        Console.WriteLine();
-            //    }
-            //}
+            }
 
-            
+            void PrintMenu()
+            {
+                Console.WriteLine("==================================");
+                Console.WriteLine("1 - print database");
+                Console.WriteLine("2 - log new session");
+                Console.WriteLine("3 - update session");
+                Console.WriteLine("4 - delete session");
+                Console.WriteLine("0 - close and exit program");
+                Console.WriteLine("==================================");
+
+
+            }
+
+            //CodingSession newSession = new();
+
+            //Console.WriteLine(".");
+            //Console.WriteLine(".");
+            //Console.WriteLine("start:");
+            //Console.WriteLine(newSession.Start.ToString());
+            //Console.WriteLine("End");
+            //Console.WriteLine(newSession.End.ToString());
+            //Console.WriteLine("Duration");
+            //Console.WriteLine(newSession.Duration.Days + "days, " + newSession.Duration.Hours + "hours, " + newSession.Duration.Minutes + "minutes");
+
+
+
+
         }
     }
 }
