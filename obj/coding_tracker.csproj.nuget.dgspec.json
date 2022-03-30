@@ -45,6 +45,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "consoletableext": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "system.data.sqlite": {
+              "target": "Package",
+              "version": "[1.0.115.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
